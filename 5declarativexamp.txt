@@ -1,0 +1,7 @@
+new -> pipeline
+
+project url
+  https://github.com/prachii2002/devopss/
+  
+  
+script from scm -> git -> https://github.com/prachii2002/devopss.git -> master ->Jenkinsfile
