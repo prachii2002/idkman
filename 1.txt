@@ -1,1 +1,29 @@
-git 
+git config --global user.name ""
+git config --global user.email ""
+
+//creating git folder
+mkdir devops_new
+cd devops_new
+
+//initialize git
+git init
+git clone prjt_url
+git status
+git branch [-a]
+
+//push
+git add -A
+git commit -m "added 3 html files"
+git push
+git rm a.html
+git log
+git reflog
+
+//pull
+git pull
+
+//theory:
+Git is a version control system that allows developers to track changes in their code over time. Github is a web-based platform that provides a hosting service for Git repositories. Github allows developers to collaborate on projects and share their code with others.
+
+The basic workflow for using git with Github involves creating a local repository on your computer, making changes to your code, and then pushing those changes to the Github repository. To pull changes from a Github repository, you first need to clone the repository to your local machine and then use the pull command to update your local repository with the latest changes.
+
