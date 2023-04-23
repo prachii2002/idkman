@@ -5,3 +5,10 @@ project url
   
   
 script from scm -> git -> https://github.com/prachii2002/devopss.git -> master ->Jenkinsfile
+
+
+CI/CD (Continuous Integration/Continuous Delivery) is a software development practice that involves continuously integrating and delivering software changes to production. CI/CD aims to automate the entire software development life cycle, from code changes to production deployment.
+
+Jenkins is an open-source automation server that supports CI/CD workflows. Jenkins can be configured to pull the source code from a Git repository, build the code, run tests, and deploy the application automatically.
+
+To set up a CI/CD pipeline for deploying HTML files from a GitHub repository to an XAMPP server, we need to create a Jenkins pipeline that includes several stages. The pipeline should include stages for pulling the source code from the GitHub repository, building and testing the code, and deploying the HTML files to the XAMPP server.
