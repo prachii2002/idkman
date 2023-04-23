@@ -45,3 +45,29 @@ time.sleep(3)
 driver.close()
 print("sample test case successfully completed")
 #%%
+
+
+THEORY:
+Selenium is an open-source tool for automating web browser interactions. It supports various programming languages and browsers, allowing developers to create automated tests for web applications. Selenium provides a suite of tools that enables developers to automate web browser interactions, including Selenium WebDriver, Selenium IDE, and Selenium Grid.
+
+Selenium WebDriver is the most widely used tool in the Selenium suite. It provides a programming interface to interact with web browsers such as Chrome, Firefox, and Safari. Developers can use Selenium WebDriver to automate tasks such as filling out forms, clicking buttons, and navigating to different pages on a website. Selenium WebDriver can be used in combination with various programming languages such as Java, Python, and JavaScript.
+
+OUTPUT ANALYSIS:
+The sample Selenium script demonstrated above in Python navigates to the Google home page, enters a search query, waits for the search results to load, verifies that the search results contain the expected text, and then closes the browser.
+
+The output of this script will be a successfully run test that verifies that the search results for "Selenium testing" are displayed on the Google search results page. If the test fails, an error message will be displayed indicating which step of the test failed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
