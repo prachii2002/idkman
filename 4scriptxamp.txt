@@ -25,3 +25,23 @@ pipeline {
         }
     }
 }
+
+
+
+THEORY:
+Continuous Integration/Continuous Delivery (CI/CD) is a software development practice that involves continuously testing and deploying code changes to production environments. CI/CD helps to reduce the time between writing code and deploying it to production, which increases the speed of software delivery and reduces errors.
+
+Jenkins is an open-source automation server that supports CI/CD workflows. Jenkins provides several plugins and features to automate the build, test, and deployment process. In this demonstration, we will use a scripted pipeline to deploy 3 HTML files from a GitHub repository to an XAMPP server.
+
+XAMPP is a free, open-source web server solution that includes Apache, MySQL, and PHP. XAMPP provides a convenient platform for testing and deploying web applications.
+
+OUTPUT ANALYSIS:
+The steps involved in setting up a CI/CD pipeline in Jenkins to deploy 3 HTML files from a GitHub repository to an XAMPP server using a scripted pipeline are:
+
+Install Jenkins on your machine and launch it in your web browser.
+Install the necessary plugins, including the Git plugin and the Pipeline plugin, for your Jenkins job.
+Create a new Jenkins job and configure it to pull the source code from a GitHub repository containing the 3 HTML files.
+Configure the build environment, including setting up XAMPP if necessary.
+Write a scripted pipeline to deploy the 3 HTML files to the XAMPP server.
+Save the pipeline script and run the job.
+In this demonstration, we have created a Jenkins job that pulls the source code from a GitHub repository containing 3 HTML files. We have configured the job to deploy the HTML files to an XAMPP server using a scripted pipeline. The output of the deployment process is displayed in the console output of the Jenkins job.
