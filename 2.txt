@@ -9,3 +9,18 @@ Directory
 build step -> Execute Windows batch command
   javac AddTwoNumbers.java
   java AddTwoNumbers
+  
+  
+//theory:
+Jenkins is an open-source automation server that allows developers to build, test, and deploy their software projects. 
+It is used to automate the build process and to manage the software development life cycle. 
+Jenkins integrates with many tools and technologies, including Java, to provide a seamless build and deployment process.
+To build a Java program through Jenkins, we need to create a Jenkins job that pulls the source code from a Git repository, compiles the code, and runs the program. Jenkins provides an interface for configuring the job, setting up the build environment, and running the build process.
+
+Install Java Development Kit (JDK) and Jenkins on your machine.
+Open Jenkins in your web browser and create a new job.
+Select "Freestyle project" and configure the job settings, including the source code management and build environment.
+Add a build step to execute shell commands.
+Enter the commands to compile and run the Java program.
+Save the job configuration and run the build.
+Check the console output for any errors or issues.
