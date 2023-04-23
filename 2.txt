@@ -1,0 +1,11 @@
+new file -> FreeStyle project
+
+general -> advanced
+Use custom workspace
+Directory
+  C:\Users\HP\Desktop            //javafile
+
+
+build step -> Execute Windows batch command
+  javac AddTwoNumbers.java
+  java AddTwoNumbers
