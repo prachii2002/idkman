@@ -1,0 +1,22 @@
+freestyle project
+github project
+Project url
+  https://github.com/prachii2002/AddTwoNumbers/
+  
+Source Code Management
+Git
+Repositories
+Repository URL
+  https://github.com/prachii2002/AddTwoNumbers.git
+  brach specifier 'main'
+
+Build Triggers
+Build periodically
+  H/2 * * * *
+  
+Build Steps
+Execute Windows batch command
+  javac AddTwoNumbers.java
+  java AddTwoNumbers
+
+
