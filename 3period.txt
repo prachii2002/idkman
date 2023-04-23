@@ -20,3 +20,13 @@ Execute Windows batch command
   java AddTwoNumbers
 
 
+//theory:
+Continuous Integration (CI) is a software development practice that involves building and testing software changes automatically and continuously. 
+CI helps to identify and fix errors early in the development process, which reduces the overall development time and cost.
+
+Jenkins is an open-source automation server that supports continuous integration and continuous delivery (CI/CD) workflows. 
+Jenkins can be configured to pull the source code from a Git repository, build the code, run tests, and deploy the application automatically.
+
+To set up a continuous integration process for a Java program in Jenkins, we need to create a Jenkins job that pulls the source code from a GitHub repository, builds the program, and runs tests every 2 minutes. 
+Jenkins provides several plugins and features to automate the build and test process.
+
