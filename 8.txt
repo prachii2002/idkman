@@ -15,7 +15,7 @@ docker push prachii2002/ubuntu
 docker pull prachii2002/ubuntu
 
 
-
+//theory
 Docker is a platform that allows developers to create, deploy, and run applications in containers. 
 Containers are isolated environments that bundle an application with all its dependencies, allowing it to run consistently across different systems. 
 Docker uses images to package applications and their dependencies into portable units that can be shared and deployed across different environments.
