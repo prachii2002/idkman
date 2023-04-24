@@ -1,0 +1,46 @@
+open cmd in desktop docker directory:
+mkdir php
+cd php
+code .
+
+
+//index.php
+<html>
+    <?php echo "hi world" ?>
+</html>
+
+//Dockerfile
+FROM php
+COPY ./index.php ./
+EXPOSE 3000
+CMD ["php","-S","0.0.0.0:3000"]
+
+//then new terminal
+docker build . -t prachii2002/php
+docker run --name=php -p=3000:3000 prachii2002/php
+
+//open google chrome
+localhost:3000
+
+//powershell
+docker images        //prachii2002/php
+docker login
+docker tag prachii2002/php prachii2002/php                     //docker tag 395202956311 dockerusername/php_something
+docker images
+docker push prachii2002/php                                    //docker push dockerusername/php_something:latest
+
+
+Docker is a platform that allows developers to create, deploy, and run applications in containers. 
+Containers are isolated environments that bundle an application with all its dependencies, 
+allowing it to run consistently across different systems. Docker uses images to package applications 
+and their dependencies into portable units that can be shared and deployed across different environments.
+
+To create a Docker image of a PHP project, we need to create a Dockerfile that specifies 
+the necessary dependencies and commands to build the image. The Dockerfile contains instructions 
+to build the image, including the base image, any additional dependencies, and the commands to run the application.
+
+Once the Dockerfile is created, we can use the Docker build command to build the image and the Docker 
+push command to push the image to a Dockerhub repository.
+	
+	
+
